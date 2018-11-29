@@ -1,10 +1,3 @@
-/*
-  Theme Name: TheEvent
-  Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1329,6 +1322,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-phone,
 #contact .contact-email {
   margin-bottom: 20px;
+}
+
+#contact button {
+  border: 0;
+  padding: 9px 25px;
+  cursor: pointer;
+  background: #018bbc;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  font-size: 14px;
+  border-radius: 50px;
 }
 
 #contact .form #sendmessage {
